@@ -1,0 +1,74 @@
+.Project-View {
+  color: #333;
+}
+
+.ProjectViewPage {
+  /* position: relative; */
+}
+
+.loginPrompt {
+  /* position: relative; */
+
+  /* background-color: rgba(0, 0, 0, 0.5);
+  color: #fff; */
+}
+
+.ProjectViewPage .loginPrompt {
+  /* position: absolute; */
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+  overflow: hidden;
+  /* background-color: #cff5e7; */
+
+  /* background-color: rgba(0, 0, 0, 0.7); */
+  /* color: #fff; */
+}
+
+.ProjectViewPage .loginPrompt .prompt {
+  position: relative;
+  /* border: 1px solid black; */
+  width: 50%;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #333;
+  padding: 1rem;
+  box-shadow: 1px 1px 5px black;
+  z-index: 1;
+
+  /* opacity: 0.3; */
+}
+
+.ProjectViewPage .loginPrompt .prompt button {
+  padding: 1rem 2rem;
+  background-color: #2dbcdc;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 1px 1px 5px #2dbcdc;
+}
+
+@media (max-width: 400px) {
+  .ProjectViewPage .loginPrompt {
+    height: 50vh;
+  }
+
+  .ProjectViewPage .loginPrompt .prompt {
+    position: relative;
+    /* border: 1px solid black; */
+    width: 80%;
+  }
+
+  .ProjectViewPage .loginPrompt .prompt button {
+    padding: 0.5rem 1rem;
+
+    font-size: 1rem;
+  }
+}

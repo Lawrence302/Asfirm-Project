@@ -1,0 +1,26 @@
+.pinfo {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pinfo1 {
+  display: flex;
+}
+
+.iconDiv {
+  border: 1px solid black;
+}
+
+.iconDiv h1 {
+  border: 1px solid red;
+  background-color: #333;
+  color: #fff;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

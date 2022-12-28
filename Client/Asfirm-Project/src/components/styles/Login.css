@@ -1,0 +1,19 @@
+html {
+  font-size: 15px;
+}
+.login {
+  text-align: center;
+  background-color: #ebf0ff;
+
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: #ffe;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 10px;
+}

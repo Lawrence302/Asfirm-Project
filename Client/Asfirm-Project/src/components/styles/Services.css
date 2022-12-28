@@ -1,0 +1,89 @@
+.services-page {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  padding: 1rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.services-page h1,
+.services-page h2 {
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+  color: #2a3990;
+}
+
+.services-page h1 {
+  font-size: 36px;
+}
+
+.services-page h2 {
+  font-size: 24px;
+}
+
+.services-page p {
+  margin: 0 0 10px 0;
+  padding-left: 1rem;
+}
+
+.services-page ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.services-page .join-btn {
+  padding: 1rem;
+  font-size: 24px;
+  background-color: #2a3990;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  width: 50%;
+  cursor: pointer;
+  transition: All 200ms;
+}
+
+.services-page .join-btn:hover {
+  box-shadow: 0px 0px 0px 1px #2a3990;
+  background-color: #fff;
+  border: 1px solid #2a3990;
+  color: #2a3990;
+}
+
+.services-page .callToActoion {
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .services-page .services-page {
+    font-size: 14px;
+
+    max-width: 600px;
+  }
+
+  h1,
+  h2 {
+  }
+
+  .services-page h1 {
+    font-size: 24px;
+  }
+
+  .services-page h2 {
+    font-size: 18px;
+  }
+
+  p {
+    margin: 0 0 10px 0;
+  }
+
+  ul {
+  }
+
+  .services-page .join-btn {
+    width: 80%;
+  }
+}

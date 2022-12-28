@@ -1,0 +1,381 @@
+.NavBar {
+  background-color: #370b6f;
+  color: #fff;
+  padding: 2rem 2rem 1rem 0;
+  position: relative;
+  z-index: 5;
+}
+.menuIcon {
+  display: none;
+}
+
+.logo-box {
+  /* border: 1px solid green;
+  background-color: #370b6f;
+  padding: 0.2rem; */
+}
+.logo {
+  width: 200px;
+  background-color: #fff;
+
+  height: 50px;
+}
+
+.menuIcon-box {
+  position: relative;
+  border: 1px solid solid #fff;
+  /* background-color: ; */
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.NavBarN {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid blue; */
+  text-align: center;
+  align-items: center;
+  /* background-color: aqua; */
+  /* background-color:  */
+}
+
+.NavBarN .navul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.NavBarN .navul li {
+  list-style: none;
+  font-size: 1.8rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  /* color: #fff; */
+}
+
+.NavBarN .navul li {
+  color: #fff;
+}
+
+.NavBarN .navul li a:hover {
+  color: #006dba;
+}
+
+.NavBarN div {
+  /* border: 1px solid red; */
+}
+
+.NavBar .sec1 {
+  max-width: 30%;
+  border: none;
+}
+.NavBar .sec1 h2 {
+  margin: auto;
+}
+
+.NavBar .sec2 {
+  min-width: 60%;
+}
+
+.NavBar .sec3 {
+  min-width: 10%;
+}
+
+/* for login user dropdown */
+.userDropdown {
+  /* border: 2px solid blue; */
+  width: fit-content;
+  position: absolute;
+  right: 5px;
+  flex-direction: row;
+  background-color: #fff;
+  padding-right: 2rem;
+  border-radius: 10px;
+}
+
+.userDropdown ul {
+  /* width: fit-content; */
+  position: relative;
+  z-index: 5;
+  padding: 10px;
+  text-align: left;
+  margin-right: 1rem;
+}
+
+.userDropdown ul li {
+  position: relative;
+
+  border: 1px solid #fff;
+  padding: 10px;
+  /* padding-left: 10px; */
+  width: 100%;
+  list-style: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+/* #dadada color h */
+
+.userDropdown ul li:hover {
+  background-color: #e3f6f5;
+}
+
+/* profile circle */
+.profileCircle {
+  /* border: 1px solid green; */
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #393e46;
+  color: #fff;
+  font-weight: bold;
+}
+
+.profileCircle:hover {
+  cursor: pointer;
+}
+
+.NavBar .login-btn {
+  padding: 1rem;
+  width: 140px;
+  font-size: 1.6rem;
+  /* margin: 0 1rem 0 1rem; */
+  background-color: #2dbcdc;
+  color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.NavBar .login-btn:hover {
+  background-color: #006dba;
+}
+
+/* making the navigation bar responsive table */
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+@media (max-width: 800px) {
+  .logo-box {
+    /* border: 1px solid green; */
+    /* background-color: #370b6f;
+    padding: 0.2rem; */
+  }
+  .logo {
+    width: 200px;
+    background-color: #fff;
+
+    height: 50px;
+  }
+  .menuIcon {
+    display: block;
+    color: #fff;
+    z-index: 1;
+    font-size: 3rem;
+    /* position: absolute; */
+    right: 2rem;
+    /* top: 45%; */
+    /* transform: scale(1); */
+    /* transition: all 0.2s ease-in-out; */
+    transform: scale(1);
+    transition: transform 0.1s linear;
+  }
+
+  .menuIcon:hover {
+    transform: scale(1.2, 1.4);
+  }
+
+  .NavBarN .sec2 {
+  }
+
+  .NavBar {
+    position: relative;
+  }
+
+  .NavBar .login-btn {
+    width: 100px;
+    font-size: 1.5rem;
+    /* margin: 0 1rem 0 1rem; */
+  }
+  .NavBarN {
+  }
+
+  .NavBarN .navul {
+  }
+
+  .sec2Sm {
+    position: absolute;
+    width: 100%;
+    top: 8rem;
+    text-align: center;
+    width: 100%;
+    background-color: #370b6f;
+  }
+
+  .sec2Sm ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sec2Sm ul li {
+    list-style: none;
+    color: #fff;
+    font-size: larger;
+    padding: 1rem;
+    /* width: ; */
+    /* border: 1px solid black; */
+    border-radius: 0.5rem;
+    margin-bottom: 0.1rem;
+  }
+
+  .sec2Sm ul li:hover {
+    background-color: #c9defa;
+  }
+
+  /* .sec2Sm ul li a {
+    color: #ffff;
+    border: 1px solid black;
+    position: relative;
+    width: 100%;
+  } */
+
+  .navulSm {
+    position: relative;
+    right: 1rem;
+  }
+
+  .NavBarN .navul li {
+  }
+
+  a {
+  }
+
+  .NavBarN .navul li a {
+  }
+
+  .NavBarN .navul li a:hover {
+  }
+
+  .NavBarN div {
+  }
+
+  .sec1 {
+  }
+
+  .sec2 {
+  }
+
+  .sec3 {
+    margin-right: 1rem;
+  }
+
+  /* for login user dropdown */
+  .userDropdown {
+  }
+
+  .userDropdown ul {
+  }
+
+  .userDropdown ul li {
+  }
+
+  /* #dadada color h */
+
+  .userDropdown ul li:hover {
+  }
+
+  /* profile circle */
+  .profileCircle {
+  }
+
+  .profileCircle:hover {
+  }
+
+  .NavBar .login-btn:hover {
+  }
+}
+
+/* responsive for mobile  */
+
+@media (max-width: 400px) {
+  .logo-box {
+    /* border: 1px solid green;
+    background-color: #370b6f;
+    padding: 0.2rem; */
+  }
+  .logo {
+    width: 100px;
+    /* background-color: #fff; */
+
+    height: 50px;
+  }
+  .NavBar {
+  }
+  .NavBarN {
+  }
+
+  .NavBarN .navul {
+  }
+
+  .NavBarN .navul li {
+  }
+
+  a {
+  }
+
+  .NavBarN .navul li a {
+  }
+
+  .NavBarN .navul li a:hover {
+  }
+
+  .NavBarN div {
+  }
+
+  .sec1 {
+  }
+
+  .sec2 {
+  }
+
+  .sec3 {
+  }
+
+  /* for login user dropdown */
+  .userDropdown {
+  }
+
+  .userDropdown ul {
+  }
+
+  .userDropdown ul li {
+  }
+
+  /* #dadada color h */
+
+  .userDropdown ul li:hover {
+  }
+
+  /* profile circle */
+  .profileCircle {
+  }
+
+  .profileCircle:hover {
+  }
+
+  .NavBar .login-btn {
+    width: 100px;
+    font-size: 1.2rem;
+    /* margin: 0 1rem 0 1rem; */
+  }
+  .NavBar .login-btn:hover {
+  }
+}

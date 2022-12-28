@@ -1,0 +1,17 @@
+table {
+  border: 2px solid #009eff;
+  /* width: 800px;
+  height: 200px;*/
+}
+th {
+  border-bottom: 1px solid black;
+  width: 200px;
+}
+/*
+td {
+  text-align: center;
+} */
+
+.projectCul {
+  width: 500px;
+}

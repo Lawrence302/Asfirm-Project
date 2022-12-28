@@ -1,0 +1,148 @@
+html {
+  font-size: 10px;
+}
+
+.RegisterPage {
+  /* border: 2px solid black; */
+  text-align: center;
+  background-color: #ebf0ff;
+
+  font-size: 2rem;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Register_form {
+  /* border: 2px solid black; */
+  width: 50%;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px black;
+}
+
+/*  */
+
+.Register_form .inputT {
+  border: 1px solid #355764;
+  height: 3rem;
+  outline: none;
+  background-color: none;
+  width: 90%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.input_group {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.input_box {
+  /* border: 2px solid black; */
+  width: 30rem;
+}
+
+.radio {
+  border: 1px solid #355764;
+  height: 2rem;
+  outline: none;
+  background-color: none;
+  width: 2rem;
+}
+
+.submitButton {
+  background-color: #1976d2;
+  border: none;
+  width: 20rem;
+  font-size: 2rem;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btnBox {
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+.userTypesBox {
+  /* border: 2px solid black; */
+  padding-left: 3.5rem;
+  padding-top: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .userTypesBox {
+    /* border: 2px solid black; */
+    padding-left: 0.5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .RegisterPage {
+    padding-top: 4rem;
+  }
+  .Register_form {
+    /* border: 2px solid black; */
+    width: 90%;
+    /* font-size: 1.3rem; */
+  }
+
+  .Register_form .inputT {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .input_group {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+
+  .input_box {
+    /* border: 2px solid black; */
+    width: 100%;
+  }
+
+  .radio {
+    border: 1px solid #355764;
+    height: 1.5rem;
+
+    width: 1.5rem;
+  }
+
+  .submitButton {
+    width: 90%;
+    font-size: 2rem;
+  }
+
+  .btnBox {
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+
+  .userTypesBox {
+    /* border: 2px solid black; */
+    /* padding-left:; */
+  }
+}
+
+@media (max-width: 400px) {
+  .RegisterPage {
+    font-size: 1.3rem;
+    align-items: initial;
+    margin-top: 3rem;
+  }
+}

@@ -1,0 +1,218 @@
+.HomePage {
+  /* border: 1px solid black; */
+}
+
+a {
+  text-decoration: none;
+  /* color: #fff; */
+}
+
+.HomePage .page-header {
+  /* border: 1px solid black; */
+
+  display: flex;
+  align-items: center;
+  height: 90vh;
+  color: #fff;
+  /* text-align: center; */
+  background: linear-gradient(
+    to bottom,
+    #370b6f,
+    #00429b,
+    #006dba,
+    #0095ce,
+    #2dbcdc
+  );
+}
+
+.HomePage .page-header h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+.HomePage .hero {
+  /* border: 2px solid red; */
+  width: 70%;
+  margin-left: 2rem;
+}
+
+.HomePage .sec1 {
+  padding-left: 2rem;
+  border: none;
+}
+
+.headerButtons {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: left;
+  padding: 2rem;
+  /* width: 60%; */
+}
+
+.HomePage .page-header .sec1 {
+  /* width: 60%; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: left; */
+}
+
+.HomePage .page-header button {
+  padding: 1rem;
+  width: 250px;
+  font-size: 2rem;
+  margin: 0 1rem 0 1rem;
+  /* background-color: #7b68ee; */
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.HomePage .page-header .learn-more {
+  background-color: #7b68ee;
+  color: #fff;
+}
+
+.HomePage .page-header .learn-more:hover {
+  background-color: #fff;
+  color: #7b68ee;
+}
+
+.HomePage .page-header .join-us:hover {
+  background-color: #7b68ee;
+  color: #fff;
+}
+
+/* section 2 info section */
+
+.info-section {
+  /* padding: 2rem 0 2rem 0; */
+  border: 1px solid #fff;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-section h1 {
+  text-align: center;
+}
+
+.info-section ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.info-section ul li {
+  list-style: none;
+  font-size: x-large;
+  text-align: center;
+}
+
+/* investor section  / proprietor section*/
+
+.investor-section,
+.proprietor-section {
+  border: 1px solid #fff;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.investor-section h1,
+.proprietor-section h1 {
+  font-size: xx-large;
+}
+
+.investor-section button,
+.proprietor-section button {
+  font-size: x-large;
+  padding: 1rem;
+  width: 250px;
+  font-size: 2rem;
+  margin: 0 1rem 0 1rem;
+  /* background-color: #7b68ee; */
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #7b68ee;
+  color: #fff;
+}
+
+.investor-section button:hover,
+.proprietor-section button:hover {
+  background-color: #fff;
+  color: #7b68ee;
+  border: 1px solid #7b68ee;
+}
+
+@media (max-width: 800px) {
+  .hero {
+    width: 95%;
+    margin: auto;
+  }
+
+  .headerButtons {
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    width: 100%;
+    /* border: 1px solid black; */
+  }
+
+  .HomePage .page-header .sec1 {
+    /* width: 60%; */
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid red; */
+    /* width: 90%; */
+    /* justify-content: center;
+    align-items: center; */
+  }
+
+  .HomePage .page-header button {
+    padding: 1rem;
+    width: 250px;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    /* background-color: #7b68ee; */
+  }
+}
+
+@media (max-width: 600px) {
+  .headerButtons {
+    flex-direction: column;
+    align-items: center;
+
+    /* width: 60%; */
+  }
+
+  .info-section ul {
+    /* border: 1px solid black; */
+    flex-direction: column;
+  }
+
+  .info-section ul li {
+    margin-top: 2rem;
+  }
+
+  .investor-section h1,
+  .proprietor-section h1 {
+    font-size: 2rem;
+  }
+
+  .investor-section button,
+  .proprietor-section button {
+    font-size: 1.5rem;
+
+    width: 200px;
+  }
+}
+
+@media (max-width: 400) {
+  .HomePage .page-header button {
+    width: 200px;
+
+    /* background-color: #7b68ee; */
+  }
+}

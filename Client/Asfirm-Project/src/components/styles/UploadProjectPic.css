@@ -1,0 +1,55 @@
+.uploadPic-page {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.uploadPic-page form {
+  border-radius: 0.5rem;
+  width: fit-content;
+  margin-top: 2rem;
+  display: flex;
+  /* justify-content: center; */
+  font-size: 1.6rem;
+  padding: 4rem 2rem;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 1px 3px #333;
+}
+
+.uploadPic-page input {
+  /* font-size: larger; */
+  height: 5rem;
+  /* border: 1px solid black; */
+  color: rgb(17, 16, 16);
+}
+
+.uploadPic-page form label {
+  font-size: larger;
+  /* height: 5rem; */
+  /* border: 1px solid black; */
+  /* color: rgb(17, 16, 16); */
+}
+
+.uploadPic-page .exit {
+  width: fit-content;
+}
+
+.uploadPic-page button {
+  padding: 1rem 2rem;
+  margin: 2rem 0 2rem 0;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #1498b5;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: large;
+}
+
+.uploadPic-page button:hover {
+  background-color: #fff;
+  border: 1px solid #1498b5;
+  color: #1498b5;
+}

@@ -1,0 +1,62 @@
+.sec1 {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.sec1 div {
+  /* border: 1px solid blue; */
+}
+
+/* for error message */
+
+.errMessage-Background {
+  position: absolute;
+  /* border: 1px solid black; */
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errMessage-Background .errMessage-box {
+  border-radius: 0.5rem;
+  text-align: center;
+  box-shadow: 1px 1px 5px #333;
+  padding: 1rem 2rem;
+  color: #333;
+}
+
+.errMessage-Background .errMessage-box .login-btn {
+  border: none;
+  font-size: 2rem;
+  background-color: #006dba;
+  padding: 1rem 2rem;
+  color: #fff;
+  width: 70%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.errMessage-Background .errMessage-box .login-btn:hover {
+  box-shadow: 1px 1px 5px #1b95ec;
+}
+
+.userDashboard .new-project-btn {
+  padding: 1rem;
+  background-color: #006dba;
+  border: none;
+  color: #fff;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.userDashboard .new-project-btn:hover {
+  box-shadow: 1px 1px 3px #006dba;
+  background-color: #fff;
+  color: #006dba;
+}
